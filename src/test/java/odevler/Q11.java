@@ -48,7 +48,7 @@ public class Q11 extends TestBase {
         Thread.sleep(2000);
         //   switch to first window    note : firstWin is coming from line 30
         driver.switchTo().window(firstWin);
-        System.out.println(driver.getCurrentUrl()); //http://demo.guru99.com/popup.php
+        System.out.println(driver.getCurrentUrl()); //http://demo.guru99.com/popup.php.
     }
 
 }
